@@ -1,5 +1,6 @@
 package com.mindex.challenge.data;
 
+//to report data for employee this field is created
 public class ReportingStructure {
     private Employee employee;
     private Integer numberOfReports;

@@ -11,6 +11,7 @@ import com.mindex.challenge.data.Compensation;
 import com.mindex.challenge.data.Employee;
 import com.mindex.challenge.service.CompensationService;
 
+// implementation part when compensation is either created or called to extract
 @Service
 public class CompensationServiceImpl implements CompensationService {
 

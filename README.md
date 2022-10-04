@@ -84,3 +84,7 @@ Compensation from the persistence layer.
 
 ## Delivery
 Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
+
+Follow the how to use section. The employee ID example can be found in json file.
+We can also create a new employee.
+

@@ -8,5 +8,5 @@ public interface EmployeeService {
     Employee read(String id);
     Employee update(Employee employee);
 
-    ReportingStructure getReportingStructure(String id);
+    ReportingStructure getReportingStructure(String id); // a reporting structure interface is created
 }

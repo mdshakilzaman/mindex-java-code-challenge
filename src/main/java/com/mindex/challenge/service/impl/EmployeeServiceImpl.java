@@ -49,7 +49,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 
         return employeeRepository.save(employee);
     }
-
+    //the following methods are created regarding the tasks
+    //first one to get the reporting structure and the second one is no of reports
     @Override
     public ReportingStructure getReportingStructure(String id) {
         LOG.debug("Reporting Structure of id  [{}]", id);

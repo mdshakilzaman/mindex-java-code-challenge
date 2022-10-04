@@ -2,7 +2,7 @@ package com.mindex.challenge.data;
 
 import java.time.LocalDate;
 import java.util.Date;
-
+//crate table for compensation
 public class Compensation {
     private Employee employee;
     private Integer salary;
