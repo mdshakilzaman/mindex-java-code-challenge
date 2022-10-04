@@ -16,13 +16,13 @@ import com.mindex.challenge.service.CompensationService;
 public class CompensationController {
     private static final Logger LOG = LoggerFactory.getLogger(EmployeeController.class);
 
-//    @Autowired
+    @Autowired
     private CompensationService compensationService;
 
     @PostMapping("/createCompensation")
     public Compensation createCompensation(@RequestBody Compensation compensation) {
         LOG.debug("Request to create a Compensation [{}]", compensation);
-
+        System.out.print("here");
         return compensationService.createCompensation(compensation);
     }
 
